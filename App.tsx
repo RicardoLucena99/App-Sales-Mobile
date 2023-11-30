@@ -1,11 +1,7 @@
-import { SafeAreaView, Text } from 'react-native';
+import { LoginScreen } from './src/screens/login';
 
 const App = () => {
-  return (
-    <SafeAreaView>
-      <Text onPress={() => console.log('cara do curso ta mentindoasdasdasd')}>Testando</Text>
-    </SafeAreaView>
-  );
+  return <LoginScreen />;
 };
 
 export default App;
